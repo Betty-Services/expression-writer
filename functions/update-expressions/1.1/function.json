@@ -1,0 +1,41 @@
+{
+  "description": "This funciton allows you to update expression values",
+  "label": "Update Expressions",
+  "category": "CRUD",
+  "icon": {
+    "name": "replay",
+    "color": "Green"
+  },
+  "options": [
+    {
+      "name": "selectedRecord",
+      "label": "Record",
+      "meta": {
+        "type": "Record",
+        "additional": {
+          "model": ["name"]
+        },
+        "validations": {
+            "required":true
+        }
+      }
+    },
+    {
+      "name": "defaultMapping",
+      "label": "Properties and values",
+      "info": "Here the expressions needs to be filled in.",
+      "meta": {
+        "type": "Map"
+      }
+    },
+    {
+        "name": "typeMapping",
+        "label": "Property and data type",
+        "info": "Here the types needs to be filled in per component.",
+        "meta": {
+            "type":"Map"
+        }
+    }
+  ],
+  "yields": "NONE"
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Description",
+  "label": "Update Expression",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "name": "selectedRecord",
+      "label": "Record",
+      "meta": {
+        "type": "Record",
+        "additional": {
+          "model": ["name"]
+        }
+      }
+    },
+    {
+      "name": "defaultMappings",
+      "label": "Default mapping",
+      "info": "Here the expressions needs to be filled in.",
+      "meta": {
+        "type": "Map"
+      }
+    }
+  ],
+  "yields": "NONE"
+}
